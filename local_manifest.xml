@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="anandhan07"
+          fetch="https://github.com/anandhan07/" />
+  <remote name="GhostMaster69-dev"
+          fetch="https://github.com/GhostMaster69-dev/" />
+
+  <!-- Trees -->
+  <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="anandhan07" revision="spark-13.0" clone-depth="1" />
+  <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="anandhan07" revision="spark-13.0" clone-depth="1" />
+  <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="GhostMaster69-dev" revision="master" clone-depth="1" />
+  
+</manifest>
